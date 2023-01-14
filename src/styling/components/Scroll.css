@@ -1,0 +1,31 @@
+.scroll-top {
+    padding: 15px;      
+    background-color: rgb(124, 124, 249);
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.scroll-top:hover {
+    filter: brightness(0.9);
+}
+
+.scroll-top .arrow {
+    color: white;
+}
+
+@media (hover:hover) {
+    .scroll-top {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,11 @@
+#home-wrapper > #heading {
+    height: 40vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+#home-wrapper >  #general-info {
+    height: 100vh;
+    background-color: var(--bgcolor-darker);
+}
