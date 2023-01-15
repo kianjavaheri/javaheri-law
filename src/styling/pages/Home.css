@@ -9,3 +9,22 @@
     height: 100vh;
     background-color: var(--bgcolor-darker);
 }
+
+#home-wrapper > #heading > img {
+    width: 100%;
+    object-fit: cover;
+    position: absolute; 
+    z-index: -1;
+}
+
+#home-wrapper > #heading > #gradient {
+    position: absolute; 
+    z-index: -1;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 100%;
+}
+
+#home-wrapper > #heading > h1 {
+    color: white;
+}
