@@ -2,7 +2,7 @@ import React from 'react'
 import './../styling/pages/Contact.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope, faFax } from '@fortawesome/free-solid-svg-icons'
 
 
 function Contact() {
@@ -19,9 +19,14 @@ function Contact() {
             <h3>+1 925-989-4200</h3>
           </div>
 
+          <div className="contact fax">
+            <FontAwesomeIcon icon={faFax} size="3x" />
+            <h3>888-243-0666</h3>
+          </div>
+
           <div className="contact phone">
             <FontAwesomeIcon icon={faPhone} size="3x"/>
-            <h3>alexjavaheri@yahoo.com</h3>
+            <h3>javaherilaw@yahoo.com</h3>
           </div>
 
         </div>

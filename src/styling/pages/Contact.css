@@ -1,15 +1,16 @@
 #contact-wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 1rem;
 }
 
 #contact-wrapper > #contact-info-wrapper {
     display: flex;
     flex-direction: column;
-    /* background-color: black; */
-    height: 100vh;
+    /* height: 65vh; */
     align-items: center;
+    justify-content: center;
 }
 
 #contact-wrapper > #contact-info-wrapper > .contact {
