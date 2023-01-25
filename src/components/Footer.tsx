@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
         <footer>
-            <h4>Copyright © Ali J. Javaheri</h4>
+            <h5>©2023 Law Office of Alex Javaheri, a Professional Law Corporation - all rights reserved</h5>
         </footer>
     </div>
   )

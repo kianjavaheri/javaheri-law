@@ -1,0 +1,62 @@
+#family-wrapper {
+    height: 80vh;
+}
+
+#family-wrapper > #family-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#family-wrapper > #family-content > #image-content {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#family-wrapper > #family-content > #image-content > img {
+    width: 30vw;
+    border-radius: 3px;
+}
+
+#family-wrapper > #family-content > #text-content {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#family-wrapper > #family-content > #text-content > h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(215, 215, 215);
+    padding: 1rem;
+    border-radius: 3px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#family-wrapper > #family-content > #text-content > ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#family-wrapper > #family-content > #text-content > ul > li {
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-align: center;
+    border-radius: 3px;
+    /* list-style: square; */
+}
+
+#family-wrapper > #family-content > #text-content > ul > li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, faFax } from '@fortawesome/free-solid-svg-icons'
 
 
-function Contact() {
+function Contact() {  
   return (
     <div>
       <div id="contact-wrapper">
@@ -15,18 +15,27 @@ function Contact() {
         <div id="contact-info-wrapper">
 
           <div className="contact email">
-            <FontAwesomeIcon icon={faEnvelope} size="3x" />
-            <h3>+1 925-989-4200</h3>
+            <div className="contact-head">
+              <FontAwesomeIcon icon={faEnvelope} size="2x" />
+              <h4>Email</h4>
+            </div>
+            <h4>javaherilaw@yahoo.com</h4>
           </div>
 
           <div className="contact fax">
-            <FontAwesomeIcon icon={faFax} size="3x" />
-            <h3>888-243-0666</h3>
+            <div className="contact-head">
+              <FontAwesomeIcon icon={faFax} size="2x" />
+              <h4>Fax</h4>
+            </div>
+            <h4>888-243-0666</h4>
           </div>
 
           <div className="contact phone">
-            <FontAwesomeIcon icon={faPhone} size="3x"/>
-            <h3>javaherilaw@yahoo.com</h3>
+            <div className="contact-head">
+              <FontAwesomeIcon icon={faPhone} size="2x"/>
+              <h4>Phone</h4>
+            </div>
+            <h4>+1 925-989-4200</h4>
           </div>
 
         </div>
