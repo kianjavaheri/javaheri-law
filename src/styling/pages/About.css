@@ -47,10 +47,11 @@
     justify-content: center;
     padding: 1rem;
     text-align: center;
+    background-color: rgb(201, 201, 201);
 }
 
 #about-wrapper > #memberships > #card-container > .card:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(180, 180, 180);
 }
 
 #about-wrapper > #memberships > #card-container > .card > h4 {
