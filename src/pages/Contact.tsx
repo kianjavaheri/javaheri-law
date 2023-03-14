@@ -1,11 +1,11 @@
 import React from 'react'
-import './../styling/pages/Contact.css'
+import '../styling/pages/Contact.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, faFax } from '@fortawesome/free-solid-svg-icons'
 
 
-function Contact() {  
+function Contact() {
   return (
     <div>
       <div id="contact-wrapper">

@@ -1,7 +1,7 @@
 import React, {useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
-import './../styling/components/Scroll.css'
+import '../styling/components/Scroll.css'
 
 
 function ScrollButton() {

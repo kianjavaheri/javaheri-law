@@ -11,7 +11,14 @@
 
 #about-wrapper > #about > #about-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#about-wrapper > #about > #about-content > h1 {
+    margin: 1rem;
 }
 
 #about-wrapper > #about > #about-content > p {
@@ -24,6 +31,7 @@
     align-items: center;
     flex-direction: column;
 }
+
 
 #about-wrapper > #memberships > h3 {
     padding: 1rem;
@@ -40,19 +48,27 @@
 
 #about-wrapper > #memberships > #card-container > .card {
     width: 30vw;
-    height: 10vw;
     cursor: pointer;
     transition: background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
     display: flex;
-    justify-content: center;
+    align-items: center;
     padding: 1rem;
-    text-align: center;
+    border: 1px dashed;
+    border-color: rgba(10, 10, 10, 0.3);
 }
 
 #about-wrapper > #memberships > #card-container > .card:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+#about-wrapper > #memberships > #card-container > .card > .dot {
+    height: 10px;
+    width: 10px;
+    background: black;
+    margin-right: 1rem;
+}
+
 #about-wrapper > #memberships > #card-container > .card > h4 {
     font-weight: 300;
+    text-align: center;
 }

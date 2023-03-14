@@ -1,27 +1,20 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import './../styling/components/Navbar.css'
+import '../styling/components/Navbar.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
+import { faCaretDown, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() { 
-
-  // const btnContainer = document.getElementsByTagName("ul");
-  // const btns = document.getElementById("nav-btn")
-
-  // for(var i = 0; i < (btnContainer as any).length; i++) {
-  //   (btns as any)[i].addEventListener("click", function(this:any) {
-  //     var current = document.getElementsByClassName("active");
-  //     current[0].className = (current[0].className as string).replace((current[0].className as string), " active");
-  //     (this as any).className += "active";
-      
-  //   })
-  //   // console.log("button " + i)
-  // }
   
   return (
     <div>
+      <div id="above-nav">
+        <div id="quick-contact">
+          <p><FontAwesomeIcon id="caret" icon={faPhone} /> +1 925-989-4200</p>
+          <p><FontAwesomeIcon id="caret" icon={faEnvelope} /> javaherilaw@yahoo.com</p>
+        </div>
+      </div>
       <nav>
         <h3><Link to="/">Javaheri Law</Link></h3>
         <ul>

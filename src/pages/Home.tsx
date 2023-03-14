@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import './../styling/pages/Home.css'
+import '../styling/pages/Home.css'
 import supreme from './../util/imgs/supreme_court.jpg'
 
 function Home() {
 
   return (
     <div>
-      <div id="home-wrapper" className="fade-in">
+      <div id="home-wrapper">
         <div id="heading">
           <img src={supreme} alt="Supreme Court Banner" />
           <div id="gradient"></div>
@@ -18,34 +18,43 @@ function Home() {
         </div>
 
         <div id="general-info" >
-          {/* <ul className="reveal">
-            <li><Link to="/family" className="home-link">Family Law</Link></li>
-            <li><Link to="/property" className="home-link">Real Property</Link></li>
-            <li><Link to="/dui" className="home-link">DUI</Link></li>
-            <li><Link to="/criminaldefense" className="home-link">Criminal Defense</Link></li>
-          </ul> */}
+          
           <div className="card-container">
-            <div className="card">
-              <h3>Family Law</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, placeat?</p>
-            </div>
+            
+            <Link to="/family" className="home-link">
+              <div className="card">
+                <h3>Family Law</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, placeat?</p>
+              </div>
+            </Link>
 
-            <div className="card">
-              <h3>Real Property Law</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, placeat?</p>
-            </div>
+          <Link to="/property" className="home-link">
+              <div className="card">
+                <h3>Real Property Law</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, placeat?</p>
+              </div>
+          </Link>
 
+          <Link to="/dui" className="home-link">
             <div className="card">
               <h3>DUI Law</h3>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, placeat?</p>
             </div>
+          </Link>
 
+          <Link to="/criminaldefense" className="home-link">
             <div className="card">
               <h3>Criminal Defense Law</h3>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, placeat?</p>
             </div>
+          </Link>
 
           </div>
+        </div>
+
+        <div id="quick-about">
+          <h1>Why Ali?</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat ex nostrum, ut soluta odit, quam nulla tempora maiores itaque tenetur aspernatur ullam dolorem! Fuga possimus quo soluta ex numquam nobis ducimus quasi accusantium. Nesciunt perspiciatis eligendi ducimus molestias tempora explicabo laborum fuga! Maiores quibusdam officia voluptates culpa maxime voluptas, ea fugit minima non cupiditate consequatur ipsam facere ipsa iste ducimus minus soluta et dignissimos pariatur ut itaque voluptatum vitae? Eos, amet explicabo autem nostrum eaque culpa quam a suscipit.</p>
         </div>
 
       </div>
