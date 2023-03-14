@@ -53,12 +53,11 @@
     display: flex;
     align-items: center;
     padding: 1rem;
-    border: 1px dashed;
-    border-color: rgba(10, 10, 10, 0.3);
+    text-align: center;
 }
 
 #about-wrapper > #memberships > #card-container > .card:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(180, 180, 180);
 }
 
 #about-wrapper > #memberships > #card-container > .card > .dot {

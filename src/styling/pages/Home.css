@@ -47,7 +47,7 @@
     justify-content: center;
     gap: 1rem;
     animation-name: load;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -63,10 +63,10 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    transition: background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-#home-wrapper > #general-info > .card-container  .card:hover {
+#home-wrapper > #general-info > .card-container > .card:hover {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
