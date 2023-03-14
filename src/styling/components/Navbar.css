@@ -9,6 +9,12 @@
     padding: 0.25rem;
 }
 
+#above-nav > #quick-contact > p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 nav {
     background-color: black;
     display: flex;
